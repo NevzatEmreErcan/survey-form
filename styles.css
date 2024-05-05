@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1f1f1f;
+    color: #f8faea;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    padding: 2em 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header>h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+#survey-form{
+    background-color: #0c0c20;
+
+    width: 70vw;
+    max-width: 50em;
+    padding: 2em;
+}
+
+.form-group{
+    padding: 1em;
+    width: 100%;
+
+    font-size: 1.2em;
+}
+
+label{
+    display: block;
+}
+
+.input-area{
+    width: 100%;
+    padding: 0.4em;
+    margin-top: 0.4em;
+
+    background-color: #1f1f1f;
+    color:#f8faea;
+    border: none;
+}
+
+.clue{
+    color: #f8faea99;
+    font-size: .8em;
+}
+
+.form-group:nth-child(5)>label,
+.form-group:nth-child(6)>label{
+    margin: .3em 0;
+}
+
+textarea{
+    width: 100%;
+    height: 8em;
+    margin-top: .5em;
+}
+
+.submit-btn{
+    display: block;
+
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+
+    width: 70%;
+    max-width: 14rem;
+    padding: .4em 0;
+    margin: 0 auto;
+}
